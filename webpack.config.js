@@ -5,7 +5,7 @@ module.exports = {
     devtool: 'inline-source-map',
     entry: [
         // 'webpack-dev-server/client?http://127.0.0.1:8080/',
-        'webpack-dev-server/client?http://proreactjs.dev:8080/',
+        'webpack-dev-server/client?http://contacts-app.dev:8080/',
         'webpack/hot/only-dev-server',
         './src/scripts/app.js'
     ],
