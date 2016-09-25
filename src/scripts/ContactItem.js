@@ -1,8 +1,10 @@
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 
-class ContactItem extends Component {
-    render() {
+class ContactItem extends Component
+{
+    render()
+    {
         return <li>{this.props.name} - {this.props.email}</li>
     }
 }
