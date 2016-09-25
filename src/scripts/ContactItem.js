@@ -9,7 +9,7 @@ class ContactItem extends Component {
 
 ContactItem.propTypes = {
     name: PropTypes.string.isRequired,
-    email: PropTypes.string.isRequired,
-}
+    email: PropTypes.string.isRequired
+};
 
 export default ContactItem;

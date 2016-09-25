@@ -16,6 +16,6 @@ class ContactsApp extends Component {
 
 ContactsApp.propTypes = {
     contacts: PropTypes.arrayOf(PropTypes.object)
-}
+};
 
 export default ContactsApp;
